@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/xjasonlyu/tun2socks/v2/dialer"
-	M "github.com/xjasonlyu/tun2socks/v2/metadata"
-	"github.com/xjasonlyu/tun2socks/v2/proxy/proto"
-	"github.com/xjasonlyu/tun2socks/v2/transport/shadowsocks/core"
-	obfs "github.com/xjasonlyu/tun2socks/v2/transport/simple-obfs"
-	"github.com/xjasonlyu/tun2socks/v2/transport/socks5"
+	"github.com/devil666face/tun2socks/dialer"
+	M "github.com/devil666face/tun2socks/metadata"
+	"github.com/devil666face/tun2socks/proxy/proto"
+	"github.com/devil666face/tun2socks/transport/shadowsocks/core"
+	obfs "github.com/devil666face/tun2socks/transport/simple-obfs"
+	"github.com/devil666face/tun2socks/transport/socks5"
 )
 
 var _ Proxy = (*Shadowsocks)(nil)
